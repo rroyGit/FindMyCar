@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FindMyCar</string>
+    <string name="findMyCar">Find My Car</string>
+    <string name="lastImage">Last Image</string>
+    <string name="camera">Camera</string>
+    <string name="settings">Settings</string>
+    <string name="permissions_denied">One or more permissions denied</string>
+
+    <string name="image_found_error">No Camera Photo Found</string>
+    <string name="location_failure">Failed to get current location</string>
+    <string name="geo_location_not_found_error">Geo-tag not found in camera photo</string>
+    <string name="gps_network_not_enabled">Location services not enabled</string>
+    <string name="open_location_settings">Location settings</string>
+    <string name="car_marker_title">Your car is here</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="directionsMsg">Getting directions&#8230;</string>
+
+    <string name="currentLocationTip">Move camera to your location</string>
+    <string name="carLocationTip">Move camera to car location</string>
+    <string name="drivingTip">Get directions in driving mode</string>
+    <string name="walkingTip">Get directions in walking mode</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The screen will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Detect or Enter text to start</string>
+    <string name="ocr_header2">Take a picture or enter text identifying your car, such as your car\'s plate text.\nUsing this number as reference, FindMyCar will search previous 10 images with such text,\nretrieve the geo-location tag, and set markers on Google Maps.</string>
+    <string name="read_text">Detect Text</string>
+    <string name="read_text2">Enter Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+</resources>

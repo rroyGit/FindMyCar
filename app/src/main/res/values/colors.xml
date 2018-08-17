@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bottomBarColor">#215c67</color>
+    <color name="bottomBarColor2">#4b7981</color>
+    <color name="whiteActive">#FFFFFF</color>
+    <color name="whiteNotActive">#bebebe</color>
+
+    <color name="rightIcons">#de110a</color>
+    <color name="rightIcons2">#d0e75550</color>
+    <color name="black">#000000</color>
+    <color name="iconActive">#03ffff</color>
+    <color name="iconNotActicve">#ffffff</color>
+
+    <color name="gray">#919090</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@mipmap/welcome_screen_img"/>
+
+    <item>
+
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/find_my_car3"/>
+    </item>
+
+</layer-list>

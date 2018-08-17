@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <bitmap android:src="@mipmap/zoom_to_car"
+            android:tint="@color/rightIcons2" />
+    </item>
+
+    <item android:drawable="@mipmap/zoom_to_car"/>
+</selector>
