@@ -3,7 +3,7 @@
 *.ap_
 
 # keys
-app\src\main\res\values\keys.xml
+app/src/main/res/values/keys.xml
 
 # Files for the ART/Dalvik VM
 *.dex
