@@ -8,7 +8,7 @@ Unlike mosht other alternatives on the Google Play Store, you do not have to ope
 Instead, just open your phone's camera, take a quick picture, and go on your way. Open the app only when you are ready to find your car.
 
 There are two modes to find your car's location:
-# Last Image:
+# Last Image
 Using your last taken camera photo, FindMyCar will instantly get the location of the photo and place a marker on the map.
 You can choose either Walking or Driving mode to give you waypoints from your location to the photo's location. You also get a helpful toast message showing the distance and duration in the respective mode between the two locations. Additional, you can tap on the marker to open Google Maps with the designated points.
 
