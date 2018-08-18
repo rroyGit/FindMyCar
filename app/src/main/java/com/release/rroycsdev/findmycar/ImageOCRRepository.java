@@ -22,7 +22,7 @@ import dagger.Provides;
 
 public class ImageOCRRepository implements OCRImagesInterface {
 
-    private static int NUM_OF_PHOTO_PATHS = 10;
+    private static int NUM_OF_PHOTO_PATHS = 15;
     private static int NUM_OF_OCR_DETECT_PER_THREAD = 3;
 
     private ImageViewModelPresenter imageViewModelPresenterListener;
@@ -108,6 +108,7 @@ public class ImageOCRRepository implements OCRImagesInterface {
                 executorService.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
             } catch (InterruptedException e) {
                 Log.d("CameraFragment: ", "Error threads joining");
+                e.printStackTrace();
             }finally {
                 textRecognizer.release();
             }
@@ -151,7 +152,7 @@ public class ImageOCRRepository implements OCRImagesInterface {
 
     private String getSavedCarImageText(){
         SharedPreferences sharedPreferences = context.getSharedPreferences("CarImageText", Context.MODE_PRIVATE);
-       return sharedPreferences.getString("myText", "");
+        return sharedPreferences.getString("myText", "");
     }
 
 
