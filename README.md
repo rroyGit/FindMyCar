@@ -1,13 +1,13 @@
 # FindMyCar
 Find your parked car instantly using your camera photo
 
-<a href='https://play.google.com/store/apps/details?id=com.release.rroycsdev.findmycar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width="200" height = "75" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.release.rroycsdev.findmycar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width="200" height="75" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 FindMyCar is a lightweight android application to help you find your parked car using a photo's geo-tag and Google APIs.
-Unlike mosht other alternatives on the Google Play Store, you do not have to open the app to record your car's location.
+Unlike most other alternatives on the Google Play Store, you do not have to open the app to record your car's location.
 Instead, just open your phone's camera, take a quick picture, and go on your way. Open the app only when you are ready to find your car.
 
-FindMyCar utilizes MVVP architectural design pattern and Dagger 2
+FindMyCar utilizes MVVP architectural design pattern, Dagger 2, and Google APIs
 
 There are two modes to find your car's location
 # Last Image
