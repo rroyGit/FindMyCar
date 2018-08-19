@@ -15,7 +15,7 @@ Using your last taken camera photo, FindMyCar will instantly get the location of
 You can choose either Walking or Driving mode to give you waypoints from your location to the photo's location. You also get a helpful toast message with the distance and duration in the respective mode between the two locations. Additionally, you can tap on the marker to open Google Maps with the designated points.
 
 # Camera 
-Using your previous <predefined number> camera photos, FindMyCar utilizes Text Recognition API (part of Google Mobile  Vision API)
-to recognize and retrieve text from images. Using these text and <predefined text>, images with similar matching text are found and the geo-tag is extracted. The images and their location are mapped on Google Maps.
+Using your previous <>predefined number<> camera photos, FindMyCar utilizes Text Recognition API (part of Google Mobile  Vision API)
+to recognize and retrieve text from images. Using these text and <>predefined text<>, images with similar matching text are retrieved and their the geo-tags are extracted. The images and their location are then mapped on Google Maps.
   
-To provide quick text dectection using Text Recognition API, load balancing techniques using muilti-threads and lock mechanisms are applied. For instance, running 10 consecutive Text Recognition API calls take an average of 32 seconds as opposed to 6 seconds when load balancing is applied, an average runtime improvement of 81.25%.
+To provide quick text dectection using Text Recognition API, load balancing techniques using muilti-threads and lock mechanisms are applied. Initially, running 10 consecutive Text Recognition API calls took an average of 32 seconds as opposed to 6 seconds when load balancing is applied - an average runtime improvement of 81.25%.
