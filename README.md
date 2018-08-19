@@ -12,7 +12,7 @@ FindMyCar utilizes MVVP architectural design pattern, Dagger 2, and Google APIs
 There are two modes to find your car's location
 # Last Image
 Using your last taken camera photo, FindMyCar will instantly get the location of the photo and place a marker on the map.
-You can choose either Walking or Driving mode to give you waypoints from your location to the photo's location. You also get a helpful toast message showing the distance and duration in the respective mode between the two locations. Additional, you can tap on the marker to open Google Maps with the designated points.
+You can choose either Walking or Driving mode to give you waypoints from your location to the photo's location. You also get a helpful toast message with the distance and duration in the respective mode between the two locations. Additionally, you can tap on the marker to open Google Maps with the designated points.
 
 # Camera 
 Using your previous <predefined number> camera photos, FindMyCar utilizes Text Recognition API (part of Google Mobile  Vision API)
